@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+   
+
+
+/* top section styles */
+.container{
+    width: 90%;
+    margin-bottom: 80px;
+    
+}
+.top-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #ffffff;
+    background-color:
+    #161616;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+
+.left{
+    width: 50%;
+    padding: 7% 5% 0 7%; 
+     box-sizing: border-box;
+   
+} 
+
+.left-text{
+    width: 500px;
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+} .section-title{
+    /* width: 531px; */
+    margin: 0 0;
+    font-size: 60px;
+    line-height: 70px;
+}
+.left-text .secton-author{
+    margin: 25px 0;
+    /* width: 450px; */
+    font-size: 15px;
+   
+}
+.left-text .top-button{
+        font-size: 14px;
+         font-weight: 600;
+        padding: 15px 30px;
+        color: #fff;
+        border-radius: 4px;
+        border: none;
+        background-color: #DD0000;
+        transition: transform 1s ;
+    
+    }
+    .top-button:hover{
+        border-radius:9px ;
+        transform: scale(1.05);
+
+    }
+.fa-angle-right{
+    margin-left: 10px;
+}
+
+.right{
+    width: 50%;
+    padding-top: 30px;
+    padding-right: 40px;
+    margin-bottom: -7px;
+    box-sizing: border-box;
+    
+}
+
+.right img{
+    width: 100%;
+}
+/* match-news */
+.match{
+    width: 90%;
+    margin-bottom: 80px;
+    
+}
+.mid-section{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    /* display: grid;
+    grid-template-columns:260px repeat(1, 3fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; */
+}
+.buttons{
+    height: 252px;
+    background-color: black;
+    border-radius: 10px;
+    
+    
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    width: 252px;
+   margin: 15px;
+   justify-content: center;
+     border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+
+ }
+ .red-btn{
+    
+    margin-top: 25px;
+    font-size: 14px;
+     font-weight: 600;
+ padding: 15px 30px;
+ color: #fff;
+ border-radius: 4px;
+ border: none;
+ cursor: pointer;
+ background-color: 
+ #DD0000;
+ transition: transform 0.5s ;
+
+}
+.red-btn:hover{
+border-radius: 8px;
+transform: scale(0.98);
+}
+.white-btn{
+    margin-top: 25px;
+    font-size: 14px;
+     font-weight: 600;
+ padding: 15px 30px;
+ color: #000;
+ border-radius: 4px;
+ border: none;
+ cursor: pointer;
+ background-color: 
+ #fff;
+ transition: transform 0.5s ;
+
+}
+.white-btn a{
+    text-decoration: none;
+    color:  #000;
+}
+.white-btn:hover{
+    border-radius: 8px;
+    transform: scale(0.98);
+}
+
+
+/* blogs style */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 18px;
+    grid-row-gap: 18px;
+    background-color: #fff;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    border: 0.2px solid rgb(239, 236, 236);
+    border-radius: 9px;
+    box-shadow: 10px 10px 20px gainsboro;
+}
+.blog-banner img{
+    width: 260px;
+    height: 150px;
+}
+.blog-details{
+    width: 250px;
+    margin:10px 15px;
+}
+.transfer-btn{
+  border: 0.5px solid #161616;
+    color: #161616;
+    background-color: #ffffff;
+    }
+    h4{
+        margin: 10px 0;
+    }
+    .blog-info span{
+margin-right: 10px;
+    }
+    .footer{
+        background-color:#161616 ;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h1{
+      margin-top: 100px;
+       color: #ffffff;
+       margin-bottom: 50px ;
+    }
+    hr{
+        border: 2px solid rgb(44 44 44);
+       margin: auto;
+        width: 80%;
+        margin-bottom: 30px;
+        
+       
+    }
+.footer-text{
+    display: flex;
+    color: rgb(185 185 185);
+    justify-content: center;
+    
+
+}
+.footer-text a{
+    color: gainsboro;
+    text-decoration: none;
+    margin: 10px 30px 10px 30px;
+    font-size: 12px;
+}
+.follow{
+    color: gainsboro;
+}
+.icon{
+    margin-left: 10px;
+}
+/* another.html */
+.flag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+.flag p{
+   font-size: 20px;
+   font-weight: bolder;
+   margin: 16px 10px 0 10px;
+}
+.flag img{
+    height: 60px;
+    width: 90px;
+}
+.match-details{
+    text-align: center;
+    margin:0 0 20px 0;
+}
+
+
+
+
+
+@media only screen and (max-width: 720px){
+    .container{
+        margin-bottom:20px ;
+    }
+    .top-section{
+         display: flex;
+      flex-direction: column;
+    }
+    .right{
+        width: 100%;
+        height: 100%;
+    }
+    .left{
+        width: 100%;
+        height: 100%;
+        padding-top:50px ;
+
+    }
+    .section-title{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .left-text{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        line-height: 30px;
+        
+    }
+    .top-button{
+       text-align: center;
+    }
+    
+    .mid-section{
+       display: flex;
+        flex-direction: column;
+    }
+    .buttons{
+       border-radius: 10px;
+        text-decoration: none;
+        
+        background-color:#fff ;
+    
+     }
+    .button{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+        /* border-radius: 10px; */
+    }
+   .red-btn, .white-btn{
+    border: 1px solid gray;
+   }
+   .blogs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    background-color: #fff;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    border: 0.2px solid rgb(239, 236, 236);
+    border-radius: 9px;
+    box-shadow: 10px 10px 20px gainsboro;
+}
+.blog-banner img{
+    width: 90%;
+    height: 90%;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+}
+@media screen and (min-width:721px) and (max-width:1000px){
+    .mid-section{
+        width: 100%;
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        
+       
+    }
+    .buttons{
+        margin-bottom: 0;
+        border-radius: 10px;
+         text-decoration: none;
+         height: auto;
+         background-color:#fff ;
+     
+      }
+    .button{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+       margin: 15px;
+       justify-content: space-around;
+         border-radius: 10px;
+        text-decoration: none;
+        text-align: center;
+    
+     }
+     .red-btn, .white-btn{
+        border: 1px solid gray;
+       }
+
+       .blogs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+        background-color: #fff;
+    }
+    .blog{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .blog-banner img{
+        width: 90%;
+        height: 90%;
+    }
+}
